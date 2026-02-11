@@ -70,7 +70,10 @@
 
       <a-entity camera></a-entity>
     </a-scene>
-    <a-entity light="type: ambient; intensity: 1.2"></a-entity>
-<a-entity light="type: directional; intensity: 1.0" position="1 2 1"></a-entity>
+    <a-entity gltf-model="#my-model"
+          material="shader: standard; color: #ffffff; metalness: 0; roughness: 0.8"
+          ...>
+</a-entity>
+
   </body>
 </html>
